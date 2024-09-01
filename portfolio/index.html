@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="\assests\Css\style.css">
+    <link rel="shortcut icon" href="C:\Users\Puneet\Downloads\personalportfolio.gituhb.io-main\portfolio\assests\images\apple-touch-icon.png" type="image/x-icon">
+    <title>My Cave</title>
+</head>
+<header class="nav-bar">
+    
+        <nav class="nav_bar">
+            
+            <a href = "#home">Home</a>
+            <a href = "#services">Services</a>
+            <a href="#projects" >Projects</a>
+            <a href = "#about_me ">About Me</a>
+            <a href = "#review">Work with ME</a>
+            <a href="#contact" >Contact</a> 
+        </nav>
+</header>
+<body>
+    <section class="home-page">
+    <img src="C:\Users\Puneet\Downloads\personalportfolio.gituhb.io-main\portfolio\assests\images\HOME PAGE.png" alt="" class ="home">
+    <p class="home_page">Hey there I am Puneet</p>
+    </section>
+    <div class="#services" id="services">
+    <section class="services">
+        <img src="C:\Users\Puneet\Downloads\personalportfolio.gituhb.io-main\personalportfolio" alt="" class="ser">
+
+    </section>
+    </div>      
+    <section class="proj" id="projects">
+        <p class="pro">PROJECTS</p>
+        <ul><a href="https://github.com/puneet0310/Medi-Sphere.github.io" class="p1">MEDICAL WEBSITE</a></ul>
+        <ul><a href="https://github.com/puneet0310/python-development/tree/main/navigation%20system" class="p2">CAMPUS NAVIGATION SYSTEM</a></ul>
+        <ul><a href="https://github.com/puneet0310/python-development/tree/main/chat%20box" class="p3">AI-CHATBOX</a></ul>
+        <ul><a href="https://github.com/puneet0310/python-development" class="p4">MINI GAMES WITH PYTHON </a></ul>
+        <ul><a href="https://github.com/puneet0310/MY-projects/blob/main/password_generator.py" class="p5">PASSWORD GENERATOR</a></ul>
+    </section>
+    <section class="AboutMe" id="about_me">
+        <p class="abthead">ABOUT ME</p>
+        <div class="abtme">
+        <img src="C:\Users\Puneet\Downloads\personalportfolio.gituhb.io-main\portfolio\assests\images\ABOUT ME.png" alt="" class="abt">
+        <p class="abttext">Hello I am college student of computer science background and I am intrested in cybersecurity and I can build websites like the one your in right now</p>
+        </div>
+  
+    </section>
+    <section class="work" id="review">
+        <p class="workwme">WORK WITH ME </p>
+        <div class="form-container">
+            
+            <form id="myForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="project">Project Title</label>
+                <input type="text" id="project" name="project" required>
+    
+                <button type="submit" >Submit</button>
+            </form>
+    
+            <div id="output"></div>
+        </div>
+    
+    </section>
+    <section class="contact" id="contact">
+        <p class="con">CONTACT ME ON </p>
+        <div class="contacts">
+
+        <a href="http://www.linkedin.com/in/puneets1003">LinkedIn</a><br>
+        <a href="http://https://github.com/puneet0310">Github</a><br>
+        <a href="mailto:spuneetss03@gmail.com">Gmail</a><br>
+        <a href="http://https://leetcode.com/u/PuneetS1003/">LeetCode</a><br>
+        <a href="http://https://stackoverflow.com/users/25423169/puneet-s">StakOverflow</a><br>
+        </div>
+    </section>
+
+    <script src="\assests\Js\script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCR3zvwJsN1zxkYdTwUIUtaMlE0zCZWqZw",
+          authDomain: "portfolio-b9198.firebaseapp.com",
+          projectId: "portfolio-b9198",
+          storageBucket: "portfolio-b9198.appspot.com",
+          messagingSenderId: "638312397246",
+          appId: "1:638312397246:web:4a996ccabb9a836ef261ef",
+          measurementId: "G-QH5YTGB9QG"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
